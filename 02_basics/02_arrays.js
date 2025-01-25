@@ -7,11 +7,11 @@ const dc_heros = ["superman", "flash", "batman"]
 // console.log(marvel_heros);
 // console.log(marvel_heros[3][1]);
 
-//------------ Using Concat mathod ---------------
+//------------ Using Concat mathod ---> return new array  ---------------
 // const allHereos = marvel_heros.concat(dc_heros)
 // console.log(allHereos);
 
-//--------------------- Spread Operrator method -------------------------
+//--------------------- Spread Operrator method--> it spread the array  -------------------------
 const all_new_heros = [...marvel_heros, ...dc_heros]
 console.log(all_new_heros);
 
