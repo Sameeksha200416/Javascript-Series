@@ -1,3 +1,8 @@
+//This and Arrow functions - With arrow functions the this keyword always represents 
+//the object that defined the arrow function.
+
+//this keyword refer current context
+
 const user = {
     username:"sam",
     price:999,
@@ -7,6 +12,10 @@ const user = {
         console.log(this);
     }
 }
+
+//browser ke ander jo object hai woh hai window object.
+
+
 // user.welcomeMessage()
 // user.username = "samii"
 // user.welcomeMessage()
